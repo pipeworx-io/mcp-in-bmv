@@ -3,6 +3,8 @@
 Indiana DMV data: **Bureau of Motor Vehicles (BMV)** branches, self-service kiosks, BMV Connect
 locations, motorcycle rider-training (RSI) courses and skills-test sites. Keyless.
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## What Indiana calls its DMV
 
 Indiana's agency is the **Bureau of Motor Vehicles**, universally the **BMV**. Hoosiers say
@@ -76,7 +78,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -93,14 +95,14 @@ Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
 Instead of calling tools directly, you can ask questions in plain English:
 
 ```
-ask_pipeworx({ question: "your question about Indiana BMV data" })
+ask_pipeworx({ question: "your question about In Bmv data" })
 ```
 
 The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
