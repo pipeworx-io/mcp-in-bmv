@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-in-bmv",
-  "version": "0.1.0",
-  "description": "Indiana BMV branches, kiosks, BMV Connect and motorcycle skills-test locations",
+  "version": "0.1.1",
+  "description": "Indiana BMV MCP — Bureau of Motor Vehicles branches, self-service kiosks, BMV Connect",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-in-bmv": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "in-bmv"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-in-bmv"
+    "url": "git+https://github.com/pipeworx-io/mcp-in-bmv.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-e816883d445b3b0ca1adef928afbd786e3c9e30700081ba858a6fe83a088dec2",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
