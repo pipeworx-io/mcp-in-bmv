@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-in-bmv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Indiana BMV MCP — Bureau of Motor Vehicles branches, self-service kiosks, BMV Connect locations, motorcycle rider-training (RSI) courses and skills-test sites. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "in-bmv",
     "gatewaySlug": "in-bmv",
-    "sourceHash": "v1-38c06cb9a02f616038e30f2ba4e163799fe7e660b4792ee6207c4fc308a3a4b9",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-9cee94d79a6cb0abad2da0cb53f8da9cf881486a7a4db8d3969fa08e16fbb921",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
